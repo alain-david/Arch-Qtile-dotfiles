@@ -1,0 +1,8 @@
+# Ignore everything
+/*
+!nvim
+!qtile
+!ranger
+!rofi
+!.gitignore
+!picom.conf
