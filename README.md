@@ -147,6 +147,7 @@ el gestor de ventanas:
 Dentro pega esto:
 
 ```bash
+~/.fehbg & # Fondo
 picom & # Compositor
 cbatticon & # Systray bateria
 nm-applet & # Systray Network Manager
