@@ -34,5 +34,3 @@ syntax enable
 filetype on
 filetype indent on
 filetype plugin on
-
-"set colorcolumn=120 Muestra la columna limite a 120 caracteres
