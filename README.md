@@ -64,11 +64,21 @@ Instalar iconos para la batería, discos, red y el volumen:
     udiskie -t &
     volumeicon &
 
+## AUR helper
+Instalar **[paru](https://github.com/Morganamilo/paru)**:
+
+```bash
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+```
 ## Perzonalizar
 
 ### Fuentes
 
     sudo pacman -S ttf-liberation
+    paru -S nerd-fonts-ubuntu-mono
 
 Para listar todas las fuentes disponibles:
 
@@ -113,7 +123,19 @@ webkit_theme = glorious
 
 ### Tema Grub
 
+Ruta donde copiar los temas:
 
+    /boot/grub/themes
+
+Modifique /etc/default/grub:
+```ini
+GRUB_THEME="/boot/grub/themes/NombreDeTema/theme.txt"
+```
+Regenere grub.cfg para aplicar los cambios:
+
+    sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+Aparecerá el mensaje Found theme: /boot/grub/themes/starfield/theme.txt. 
 
 ## Xprofile
 
@@ -131,16 +153,6 @@ nm-applet & # Systray Network Manager
 udiskie -t & # Systray dispositivos
 volumeicon & # Systray volume
 ```
-## AUR helper
-Instalar **[paru](https://github.com/Morganamilo/paru)**:
-
-```bash
-sudo pacman -S --needed base-devel
-git clone https://aur.archlinux.org/paru.git
-cd paru
-makepkg -si
-```
-
 ## Media Transfer Protocol
 
 Conectar teléfono usando un cable USB:

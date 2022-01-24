@@ -21,6 +21,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'sheerun/vim-polyglot'
     Plug 'honza/vim-snippets'
 		Plug 'terryma/vim-multiple-cursors'
+		" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
     " Autopairs
     Plug 'jiangmiao/auto-pairs'
 
