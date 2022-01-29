@@ -5,7 +5,6 @@
 # Except for the files and folders we want to track
 !.config
 !install
-!.alacritty.yml
 !.xprofile
 !install.sh
 !README.md

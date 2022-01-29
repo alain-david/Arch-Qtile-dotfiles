@@ -20,11 +20,11 @@ Para montar una unidad ejecutaremos el siguiente comando:
 # /dev/sdxx la unidad y /mnt/ntfs punto de montaje
 sudo mount /dev/sdxx /mnt/ntfs
 ```
-Si queremos que la unidad NTFS siempre este desde el inicio hay que modificar el fichero fstab:
+Si queremos que la unidad NTFS siempre este desde el inicio hay que modificar el fichero fstab:
 
     sudo nano /etc/fstab
 
-Aquí debemos añadir una línea de código más que indique cómo debe montar la unidad NTFS:
+Aquí debemos añadir una línea de código más que indique cómo debe montar la unidad NTFS:
 
     /dev/sdxx /mnt/ntfs ntfs-3g defaults 0 0
 
@@ -153,6 +153,20 @@ cbatticon & # Systray bateria
 nm-applet & # Systray Network Manager
 udiskie -t & # Systray dispositivos
 volumeicon & # Systray volume
+```
+## Gestos
+
+Crea 30-touchpad.conf para configurar los gestos
+    
+    sudo nvim /etc/X11/xorg.conf.d/30-touchpad.conf
+Dentro pega esto:
+```bash
+Section "InputClass"
+	Identifier "touchpad"
+	Driver "libinput"
+	Option "Tapping" "on"
+	Option "TappingButtonMap" "lr"
+EndSection
 ```
 ## Media Transfer Protocol
 

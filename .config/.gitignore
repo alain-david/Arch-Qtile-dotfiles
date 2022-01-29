@@ -1,5 +1,6 @@
 # Ignore everything
 /*
+!alacritty
 !nvim
 !qtile
 !ranger

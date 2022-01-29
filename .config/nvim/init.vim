@@ -9,7 +9,6 @@ source $HOME/.config/nvim/plugins.vim
 set termguicolors
 set background=dark
 colorscheme onedark
-" colorscheme monokai_pro
 
 " Barra estado tema
 let g:airline#extensions#tabline#enabled = 1

@@ -11,7 +11,6 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'junegunn/fzf.vim'
 	
     " Themes
-    Plug 'phanviet/vim-monokai-pro'
     Plug 'joshdick/onedark.vim'
 
     " Comment code

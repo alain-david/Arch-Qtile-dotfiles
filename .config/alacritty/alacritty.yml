@@ -35,7 +35,8 @@ colors:
     cyan:    '0x98fffd'
     white:   '0xd1e5ed'
 
-background_opacity: 0.7
+window:
+  opacity: 0.7
 
 cursor:
   style:
@@ -43,10 +44,3 @@ cursor:
     #   - _ Underline
     #   - | Beam
     shape: Beam
-    #   - Never: Prevent the cursor from ever blinking
-    #   - Off: Disable blinking by default
-    #   - On: Enable blinking by default
-    #   - Always: Force the cursor to always blink
-    blinking: Off
-
-
