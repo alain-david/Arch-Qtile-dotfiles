@@ -120,6 +120,9 @@ greeter-session = lightdm-webkit2-greeter
 debug_mode = true #true #false
 webkit_theme = glorious
 ```
+Para cambiar el avatar:
+
+		paru -S mugshot
 
 ### Tema Grub
 
