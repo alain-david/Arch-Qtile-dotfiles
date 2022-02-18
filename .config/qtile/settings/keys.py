@@ -51,7 +51,10 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod], "Return", lazy.spawn("alacritty")),
     
     # Code 
-    ([mod], "c", lazy.spawn("code")),   
+    ([mod], "c", lazy.spawn("code")),
+
+    # Musik
+    ([mod], "m", lazy.spawn("rhythmbox")),
 
     # VLC
     ([mod], "v", lazy.spawn("vlc")),   

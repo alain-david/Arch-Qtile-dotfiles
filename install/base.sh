@@ -1,2 +1,3 @@
 ## Base
-sudo pacman -S alacritty lightdm lightdm-gtk-greeter qtile rofi xorg xorg-xinit
+sudo pacman -S alacritty lightdm lightdm-gtk-greeter qtile rofi xorg xorg-xinit ntfs-3g brightnessctl alsa-utils pamixer feh picom lxappearance papirus-icon-theme materia-gtk-theme which trayer cbatticon network-manager-applet udiskie volumeicon pacman-contrib python-psutil networkmanager-openvpn scrot htop neofetch rhythmbox vlc firefox fish ranger telegram-desktop code
+# networkmanager-l2tp strongswan

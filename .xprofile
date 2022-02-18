@@ -1,5 +1,4 @@
 # Env vars
-#export _JAVA_AWT_WM_NONREPARENTING=1 
 #
 # Screens
 # hdmi=`xrandr | grep ' connected' | grep 'HDMI' | awk '{print $1}'`
@@ -10,6 +9,7 @@
 # fi
 #
 ~/.fehbg & # Fondo
+numlockx & # Teclado Num
 picom & # Composer
 cbatticon -u 5 & # systray battery icon
 nm-applet & # Network

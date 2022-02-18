@@ -6,7 +6,7 @@ call plug#begin('~/.config/nvim/plugged')
     " File explorer
     Plug 'scrooloose/nerdtree'
 		
-		" Fzf
+    " Fzf
     Plug 'junegunn/fzf'
     Plug 'junegunn/fzf.vim'
 	
@@ -17,10 +17,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tpope/vim-commentary'
 
     " Syntax support
-    Plug 'sheerun/vim-polyglot'
-    Plug 'honza/vim-snippets'
-		Plug 'terryma/vim-multiple-cursors'
-		" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'terryma/vim-multiple-cursors'
 
     " Autopairs
     Plug 'jiangmiao/auto-pairs'
@@ -28,10 +26,8 @@ call plug#begin('~/.config/nvim/plugged')
     " Icons
     Plug 'ryanoasis/vim-devicons'
     
-		" Git
-		Plug 'xuyuanp/nerdtree-git-plugin'	
-		Plug 'tpope/vim-fugitive'
+    " Git
+    Plug 'xuyuanp/nerdtree-git-plugin'	
+    Plug 'tpope/vim-fugitive'
 
-    " Ranger
-    "Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 call plug#end()

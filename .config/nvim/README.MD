@@ -11,9 +11,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 sudo pacman -S nodejs npm python python-pip ruby rubygems
 
 # Paquetes de neovim
+sudo npm i -g neovim
 pip install neovim
 gem install neovim
-sudo npm i -g neovim
 
 # Otras dependencias
 sudo pacman -S xsel fzf
