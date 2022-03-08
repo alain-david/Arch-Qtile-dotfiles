@@ -77,7 +77,6 @@ makepkg -si
 
 ### Fuentes
 
-    sudo pacman -S ttf-liberation
     paru -S nerd-fonts-ubuntu-mono
 
 Para listar todas las fuentes disponibles:
@@ -122,7 +121,7 @@ webkit_theme = glorious
 ```
 Para cambiar el avatar:
 
-		paru -S mugshot
+	paru -S mugshot
 
 ### Tema Grub
 
@@ -168,7 +167,6 @@ Section "InputClass"
 	Identifier "touchpad"
 	Driver "libinput"
 	Option "Tapping" "on"
-	Option "TappingButtonMap" "lr"
 EndSection
 ```
 ## Media Transfer Protocol

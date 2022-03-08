@@ -2,11 +2,11 @@ clear
 echo "**Preparando configuracion**"
 echo ""
 echo "Copiando .config/ alacritty/ nvim/ qtile/ ranger/ rofi/ picom.conf"
-cp -r .config ~/.config
+cp -r .config ~/
 echo "Done"
 
 echo "Copiando .xprofile"
-cp .xprofile ~/.xprofile
+cp .xprofile ~/
 echo "Done"
 echo ""
 echo "**Configuracion lista**"
